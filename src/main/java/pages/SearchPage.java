@@ -37,7 +37,7 @@ public class SearchPage {
     @FindBy(xpath = "//button/span[text()='Найти']/..")
     WebElement buttonSearch;
 
-    @FindBy(xpath = "//h1[@class='title title_size_28 title_bold_yes']")
+    @FindBy(xpath = "(//div[@class='n-snippet-cell2__title'])[1]")
     public WebElement tovar;
 
     public SearchPage() {
